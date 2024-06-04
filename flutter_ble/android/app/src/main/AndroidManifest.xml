@@ -1,20 +1,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-feature android:name="android.hardware.bluetooth_le" android:required="false" />
 
-    <!-- Android 12ì—ì„œ ì¶”ê°€ëœ ìƒˆë¡œìš´ Bluetooth ê¶Œí•œ -->
+    <!-- Android 12?—?„œ ì¶”ê???œ ?ƒˆë¡œìš´ Bluetooth ê¶Œí•œ -->
     <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 
-    <!-- Android 11 ì´í•˜ ë²„ì „ì„ ìœ„í•œ ë ˆê±°ì‹œ Bluetooth ê¶Œí•œ -->
+    <!-- Android 11 ?´?•˜ ë²„ì „?„ ?œ„?•œ ? ˆê±°ì‹œ Bluetooth ê¶Œí•œ -->
     <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:maxSdkVersion="30"/>
 
-    <!-- Android 9 ì´í•˜ ë²„ì „ì„ ìœ„í•œ ë ˆê±°ì‹œ ìœ„ì¹˜ ê¶Œí•œ -->
+    <!-- Android 9 ?´?•˜ ë²„ì „?„ ?œ„?•œ ? ˆê±°ì‹œ ?œ„ì¹? ê¶Œí•œ -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:maxSdkVersion="28" />
 
     <application
-        android:label="flutter_ble"
+        android:label="sleep_classfier"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
